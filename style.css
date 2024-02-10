@@ -1,0 +1,324 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+section {
+  width: 1100px;
+  margin: 0 70px;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  color: #000;
+  font-family: "Allura", cursive;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.menunth {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.lastmenu {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-icons {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+#search {
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dresstext {
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.dresspic {
+  width: 300px;
+  display: flex;
+  gap: 10px;
+}
+
+.dress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 30px;
+  gap: 50px;
+}
+.dressinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.dresssize {
+  display: flex;
+  gap: 30px;
+}
+
+.dressimg {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.buybutton {
+  display: flex;
+  padding: 12px 36px;
+  justify-content: center;
+  align-items: center;
+  background-color: #473a31;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  border: none;
+}
+
+.sharebut {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: #fff;
+  color: #000;
+}
+.sharebutton {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+}
+
+.firstp {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+  font-family: "Playfair Display";
+}
+
+.p2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.p3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.dresssize p {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.desc-info p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.look {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  gap: 100px;
+}
+
+.bag,
+.bangle,
+.earrings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.look h5 {
+  width: 300px;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.look h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  font-family: "Playfair Display";
+}
+
+.add {
+  display: flex;
+  padding: 6px 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: #473a31;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  border: none;
+}
+
+.complete {
+  width: 1100px;
+  margin: 50px;
+  align-items: center;
+}
+
+.autumn-winter {
+  width: 1100ox;
+  margin: 70px;
+  align-items: center;
+}
+
+.collection {
+  display: flex;
+  gap: 50px;
+  margin-left: 30px;
+}
+
+.collection-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.collection-info h5 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0 0 40px 0;
+  font-family: "Playfair Display";
+}
+
+.collection-info p {
+  width: 680px;
+  color: #000;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.collection-info button {
+  display: flex;
+  padding: 6px 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: #473a31;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  border: none;
+  margin-top: 100px;
+}
+
+footer {
+  width: 1100ox;
+  margin: 0 100px;
+  align-items: center;
+}
+.footer-logo {
+  width: 269px;
+  height: 60px;
+  color: #000;
+  font-family: "Allura", cursive;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-texts {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+}
+.footer-head {
+  display: flex;
+}
+.footer-h5 {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: 400;
+  align-items: center;
+}
